@@ -1,8 +1,10 @@
 /* Write a program that converts between different units (e.g., kilometers to miles, Celsius to Fahrenheit)
 based on user selection using a switch statement.
 Input. -
-choice - 1 - km → m, km → 1km
-choice - 2 - f → c, f → c
+choice -1 km -> m
+choice- 2  m -> km
+choice -3  f -> c
+choice -4  c -> f
 */
 package Task_23092024;
 public class lab_Units_Conversion {
