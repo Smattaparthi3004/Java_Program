@@ -2,6 +2,9 @@
 Input  - 12
 Out - Dec. */
 package Task_23092024;
+
+import java.util.logging.SocketHandler;
+
 public class lab_Calender {
     public static void main(String[] args) {
         int month = 11;
@@ -17,7 +20,8 @@ public class lab_Calender {
             case 9 -> System.out.println("September");
             case 10 ->System.out.println("October");
             case 11 ->System.out.println("November");
-            default-> System.out.println("December");
+            case 12-> System.out.println("December");
+            default -> System.out.println("Wrong Input");
 
          /*   case 1: {
                 System.out.println("January");
@@ -63,8 +67,12 @@ public class lab_Calender {
                 System.out.println("November");
                 break;
             }
+            case 12:{
+                System.out.println("December");
+                break;
+                }
             default:
-                System.out.println("December");  */
+               System.out.println("Wrong input");*/
         }
     }
 }
