@@ -30,6 +30,8 @@ public class lab_Units_Conversion {
                 System.out.println(value + "°C is equals to :" + ((value*9/5) + 32) +"F" );
                break;
             }
+            default:
+                System.out.println("Wrong input");
         }
     }
 }
