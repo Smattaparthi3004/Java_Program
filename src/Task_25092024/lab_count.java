@@ -17,6 +17,8 @@ public class lab_count {
             char ch=name.charAt(i);  // ch holds each single value
             if(ch=='a'|| ch=='e'||ch=='i'||ch=='o'|| ch=='u')
                 Vowel_Count=Vowel_Count+1;
+            else if(ch==' ')
+                continue;
             else
                 Conson_Count=Conson_Count+1;
 
