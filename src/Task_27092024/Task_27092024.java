@@ -11,7 +11,7 @@ public class Task_27092024 {
         // ..........while loop Example..........
         int num=0;
         while ((num>=i)) {
-            System.out.println("while loop :");//condition fails exit the loop .output is not generated
+            System.out.println("while loop :");//condition fails exit the loop.output is not generated
             System.out.println(num);
             num++;
         }
@@ -21,7 +21,14 @@ public class Task_27092024 {
             System.out.println("do while loop block :");
             System.out.println(num);
             num++;
-        }while (num>=i);        //Condition fails but statement executes
+        }while (num>=i);        //0>5 Condition fails, but statement executes
     }
 }
+
+/*   ----output---------
+Enter Number :
+5
+do while loop block :
+0
+ */
 
